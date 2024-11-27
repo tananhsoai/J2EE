@@ -1,0 +1,49 @@
+.chat-container {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    /* Căn giữa theo chiều ngang */
+    text-align: center;
+}
+
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.chat-input {
+    display: flex;
+}
+
+.chat-input input {
+    flex: 1;
+}
+
+/* ... các styles khác ... */
+
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.message {
+    /* Styles cho từng tin nhắn */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    /* Styles cho tin nhắn của người dùng */
+    text-align: right;
+    background-color: #e0e0e0;
+}
+
+.bot-message {
+    /* Styles cho tin nhắn của bot */
+    text-align: left;
+    background-color: #d2f3ff;
+}
